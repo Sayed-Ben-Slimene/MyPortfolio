@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "National Engineering Degree in Computer Science",
+    duration: "2022 - 2025",
+    institution: "ESPRIT – Private Higher School of Engineering and Technology (Tunisia)",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Bachelor’s Degree in Computer Systems Engineering",
+    duration: "2019 - 2022",
+    institution: "ISIMA – Higher Institute of Computer Science of Mahdia (Tunisia)",
   }
-]
+];

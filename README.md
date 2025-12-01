@@ -288,7 +288,7 @@ All portfolio content is managed through data files in the `utils/data/` folder:
 ```javascript
 export const personalData = {
   name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
+  profile: "/MyprofileImage.png", // Path to your profile image
   designation: "Software Developer", // Your job title
   description: "Your bio and introduction...", // About yourself
   email: "your.email@example.com",

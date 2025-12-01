@@ -5,7 +5,7 @@ import * as React from 'react';
 function ProjectCard({ project }) {
 
   return (
-    <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
+    <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full hover:border-[#464fee] transition-all duration-500">
       <div className="flex flex-row">
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -16,7 +16,7 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl font-semibold">
           {project.name}
         </p>
       </div>
@@ -57,8 +57,8 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
+            <span className="text-white">description:</span>
+            <span className="text-cyan-400 block mt-2 ml-4 lg:ml-8 leading-relaxed">{project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
